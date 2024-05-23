@@ -1,0 +1,111 @@
+body{
+    background:black url(img/bg3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow-x:hidden;
+}
+
+
+
+.titulos{
+    text-align:center;
+    margin-top:140px;
+    color:rgb(255, 255, 255);
+}
+
+.titulos h1{
+    font-size:55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity:100%;
+}
+
+#p1{
+    font-size:28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.email1{
+    text-align:center;
+    position:relative;
+    bottom:50px;
+}
+
+#Email{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:400px;
+    height:50px;
+    font-size:16px;
+    position:relative;
+    left:15px;
+    background-color:rgb(54, 52, 52);
+    border:1px solid rgb(163, 163, 163);
+    border-radius:5px;
+    color:#f0ebeb;
+}
+
+#Enviar{
+    border:23px solid red;
+    border-radius:9px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:red;
+    position:relative;
+    font-size:19px;
+    color:white;
+    width:165px;
+    left:20px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+#Enviar:hover{
+    background-color:rgb(161, 1, 1);
+    border:23px solid rgb(161, 1, 1);
+    color:whitesmoke;
+}
+
+.logo{
+    position:relative;
+    bottom:320px;
+    right:700px;
+    z-index:2;
+}
+
+.entrar{
+    color:rgb(255, 255, 255);
+    border:10px solid red;
+    border-radius:10px;
+    background-color:red;
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+    bottom:360px;
+    left:1500px;
+}
+
+.entrar:hover{
+    background-color:#a70000;
+    border:10px solid #a70000;
+}
+
+.plano{
+    position:relative;
+    top:100px;
+    left:70px;
+    
+}
+
+.saibamais{
+    color:rgb(0, 0, 0);
+    font-size:25px;
+    position:relative;
+    left:730px;
+    top:274px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index:1;
+    opacity:0;
+}
